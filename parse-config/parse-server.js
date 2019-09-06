@@ -1,4 +1,4 @@
-const serverURL=`${process.env.DEV_ENV}:${process.env.PORT}`
+const serverURL=`${process.env.DEV_ENV}:${process.env.PORT}/api`
 console.log('[i] - Server is on ' + serverURL)
 
 /**
